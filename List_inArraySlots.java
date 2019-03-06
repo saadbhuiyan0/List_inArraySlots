@@ -2,17 +2,17 @@
  * comments
  *********************************/
 
-public class Template {
+public class List_inArraySlots {
 
-	  //fields
+    //fields
     String ;
     int ;
     double ;
 
-    public Template() {
+    public List_inArraySlots() {
     }
     
-    public Template(/*type arg*/) {
+    public List_inArraySlots(/*type arg*/) {
     }
 
     public String toString() {
