@@ -8,11 +8,11 @@ Including:
 - Constructors `List_OfArraySlots()` and `List_inArraySlots(/*type arg*/)`
 - A `toString()` method.
 - An `equals(List_ofArraySlots other)` method.
-- A `main(String[] commandLine)` method.
+- A `main(String[] args)` method.
 
 ### [UserOfList.java](UserOfList.java)
 Description of [UserOfList.java](UserOfList.java)
 Including: 
 - A method `oneTest(/*args*/)` for a single test of [List_inArraySlots.java](List_inArraySlots.java).
-- A `main(String[] commandLine)` method to print test results related to [List_inArraySlots.java](List_inArraySlots.java) 
+- A `main(String[] args)` method to print test results related to [List_inArraySlots.java](List_inArraySlots.java) 
 upon command line execution.
