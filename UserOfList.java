@@ -2,7 +2,7 @@
  * comments
  ********************************/
 
-public class UserOfTemplate {
+public class UserOfList {
 
     public static /*type*/ oneTest(/*args*/) {
 		    return null;
