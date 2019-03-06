@@ -15,4 +15,4 @@ Description of [UserOfList.java](UserOfList.java)
 Including: 
 - A method `oneTest(/*args*/)` for a single test of [List_inArraySlots.java](List_inArraySlots.java).
 - A `main(String[] args)` method to print test results related to [List_inArraySlots.java](List_inArraySlots.java) 
-upon command line execution.
+when executed in the command line.
