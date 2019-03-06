@@ -18,10 +18,10 @@ public class List_inArraySlots {
     public String toString() {
     }
 
-    public boolean equals(Template other) {
+    public boolean equals(List_inArraySlots other) {
     }
 
-    public static void main(String[] commandLine) {
+    public static void main(String[] args) {
     }
 
 }
