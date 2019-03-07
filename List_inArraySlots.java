@@ -46,8 +46,8 @@ public class List_inArraySlots {
 
       @return true, in keeping with conventions yet to be discussed
      */
-    public boolean add( int value) {
-        if (elements == arrayOfInts.length) {
+    public boolean add(int value) {
+        if (elements >= arrayOfInts.length) {
             expand();
         }
         arrayOfInts[elements] = value;
