@@ -6,15 +6,16 @@
 public class List_inArraySlots {
 
     // declare fields here
-    private int[] arrayOfInts;
-    private int elements;
+    private int[] elements;
+    private int filledElements;
 
+    private static final int INITIAL_CAPACITY = 10;	
+	
     /**
       Construct an empty list with a small initial capacity.
      */
     public List_inArraySlots() {
-        arrayOfInts = new int[10];
-        elements = 0;
+        elements = new int[INITIAL_CAPACITY];
     }
 
 
@@ -22,7 +23,7 @@ public class List_inArraySlots {
       @return the number of elements in this list
      */
     public int size() {
-        return elements;
+        return filledElements;
     }
 
 
@@ -32,9 +33,9 @@ public class List_inArraySlots {
       */
     public String toString() {
         String s = "[";
-        for ( int count = 0 ; count < elements ; count++) {
+        for ( int count = 0 ; count < filledElements ; count++) {
 			s = s
-				+ arrayOfInts[count]
+				+ elements[count]
 				+ ",";
 	    }
         return s + "]";
@@ -47,7 +48,7 @@ public class List_inArraySlots {
       @return true, in keeping with conventions yet to be discussed
      */
     public boolean add(int value) {
-        if (elements >= arrayOfInts.length) {
+        if (filledElements >= elements.length) {
             expand();
         }
         arrayOfInts[elements] = value;
@@ -61,10 +62,10 @@ public class List_inArraySlots {
       preserving existing data
      */
     private void expand() {
-        int[] temp = new int[2 * arrayOfInts.length];
-        for (int i = 0; i < arrayOfInts.length ; i++) {
-            temp[i] = arrayOfInts[i];
+        int[] temp = new int[2 * elements.length];
+        for (int i = 0; i < elements.length ; i++) {
+            temp[i] = elements[i];
         }
-        arrayOfInts = temp;
+        elements = temp;
     }
 }
