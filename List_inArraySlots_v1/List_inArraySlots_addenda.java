@@ -75,8 +75,8 @@ public class List_inArraySlots_addenda {
 // Augment List_inArraySlots by adding each of these methods.
 // Develop incrementally, of course.
 
-    /** 
-      accessor  
+    /**
+      accessor
       @return element @index from this list
       precondition: @index is within the bounds of the array.
           (Having warned the user about this precondition,
@@ -88,9 +88,9 @@ public class List_inArraySlots_addenda {
     }
 
 
-    /** 
+    /**
       Store et value at @index to @newValue
-      
+
       @return old value at @index
       @precondition: @index is within the bounds of this list.
      */
@@ -100,13 +100,13 @@ public class List_inArraySlots_addenda {
       return old;
     }
 
-    
-    /** 
+
+    /**
       Remove the element at position @index in this list.
 
-      Shift any subsequent elements to the left (that is, 
+      Shift any subsequent elements to the left (that is,
       decrease the index associated with each).
-      
+
       @return the value that was removed from the list
      */
      public int remove( int index) {
@@ -120,9 +120,9 @@ public class List_inArraySlots_addenda {
      }
 
 
-    /** 
+    /**
       Insert @value at position @index in this list.
-      
+
       Shift the element currently at that position (if any)
       and any subsequent elements to the right
       (that is, increase the index associated with each).
