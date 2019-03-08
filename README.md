@@ -2,6 +2,7 @@
 **Saad Bhuiyan and Franklin Liou**
 
 
+
 ## [List_inArraySlots_v0](List_inArraySlots_v0)
 
 ### [List_inArraySlots.java](List_inArraySlots.java)
@@ -17,6 +18,7 @@ Contents of [List_inArraySlots.java](List_inArraySlots.java):
 
 ### [UserOfList.java](UserOfList.java)
 The purpose of [UserOfList.java](UserOfList.java) is to ensure [List_inArraySlots.java](List_inArraySlots.java) functions as expected. By utilizing methods in [List_inArraySlots.java](List_inArraySlots.java) and printing the results, we are able to see whether the program is running as expected (if it is not, we can make changes incrementally).
+
 
 
 ## [List_inArraySlots_v1](List_inArraySlots_v1)
