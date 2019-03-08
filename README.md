@@ -24,6 +24,6 @@ The purpose of [UserOfList.java](UserOfList.java) is to ensure [List_inArraySlot
 ### [List_inArraySlots_addenda.java](List_inArraySlots_addenda.java)
 Additions to [List_inArraySlots_addenda.java](List_inArraySlots.java):
 - `get(int index)` method which returns the value stored in the array at the input index.
--`set(int index, int newValue)` method assigns `newValue` to `elements[index]` and returns the old value at `elements[index]`.
--`remove(int index)` method removes the value at `element[index]` and shifts the subsequent values down by one index/position. It then returns the removed value.
--`add(int index, int value)` method adds the value to `element[index]` and shifts the value and subsequent values up by one index/position.
+- `set(int index, int newValue)` method assigns `newValue` to `elements[index]` and returns the old value at `elements[index]`.
+- `remove(int index)` method removes the value at `element[index]` and shifts the subsequent values down by one index/position. It then returns the removed value.
+- `add(int index, int value)` method adds the value to `element[index]` and shifts the value and subsequent values up by one index/position.
