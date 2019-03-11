@@ -17,7 +17,7 @@ Members:
 - `expand()` method which utilizes a temporary array of `int`s `bigger` which is double the length of `elements` (by convention) to transfer the values in array `elements` to array `bigger` before assigning the array `elements` a reference to array `bigger`.
 
 ### [UserOfList.java](4F_List_inArraySlots_v0/UserOfList.java)
-The purpose of [UserOfList.java]((4F_List_inArraySlots_v0/UserOfList.java) is to ensure [List_inArraySlots.java](4F_List_inArraySlots_v0/List_inArraySlots.java) functions as expected. By utilizing methods in [List_inArraySlots.java](List_inArraySlots.java) and printing the results, we are able to see whether the program is running as expected (if it is not, we can make changes incrementally).
+The purpose of [UserOfList.java]((4F_List_inArraySlots_v0/UserOfList.java) is to ensure [List_inArraySlots.java](4F_List_inArraySlots_v0/List_inArraySlots.java) functions as expected. By utilizing methods in [List_inArraySlots.java](4F_List_inArraySlots_v0/List_inArraySlots.java) and printing the results, we are able to see whether the program is running as expected (if it is not, we can make changes incrementally).
 
 
 
