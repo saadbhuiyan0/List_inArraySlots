@@ -123,4 +123,21 @@ public class List_inArraySlots {
               stringExpansion[ elemIndex] = stringElements[ elemIndex];
           stringElements = stringExpansion;
       }
+
+      public Element get(int index) {
+          Element getValue = new Element();
+          if (typeOfElements[index] == 0) {
+              getValue.type = 0;
+              getValue.intValue = intElements[index];
+          }
+          if (typeOfElements[index] == 1) {
+              getValue.type = 1;
+              getValue.doubleValue = doubleElements[index];
+          }
+          if (typeOfElements[index] == 2) {
+              getValue.type = 2;
+              getValue.stringValue = stringElements[index];
+          }
+          return getValue;
+      }
 }

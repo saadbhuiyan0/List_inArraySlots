@@ -33,6 +33,10 @@ public class UserOfList {
          }
          System.out.println("result of expanded list: "
               + list.size() + " elements:");
-         System.out.println( list + System.lineSeparator());
+         System.out.print( list + System.lineSeparator());
+
+        System.out.println("get element 0: " + list.get(0) );
+        System.out.println("get element 1: " + list.get(1) );
+        System.out.println("get element 2: " + list.get(2) );
     }
 }
